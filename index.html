@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quotes for the day</title>
+</head>
+<body>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<div align="center">
+		<h1 style="color:#1a1a1a" id="quote"></h1>		
+	</div>
+
+	<script type="text/javascript">
+		var quotearray=new Array("Patience without strategy is worthless","Don't love your company , love being yourself cause at the end everyone left","You must be strong enough to withhold your feelings , else they won't let you to do your work","What you have earn in your life is the proof of what you have done in your life","Path may vary with respect to the circumstances but make sure to never change your destination","Make your decision on the basis of circumstances not feelings","Make yourself priority everytime it's not selfish , it's neccessary","If you are willing to find a way to live your life then you are not living it","ethics in someone's life define the person way much better than any other factor","Hardwork lead to success , don't believe me have faith in yourself","Love is the highest frequency on which one could ever be");
+
+		var random=Math.floor((Math.random()*10)+1);
+		document.getElementById('quote').innerHTML=quotearray[random-1];
+	</script>
+</body>
+</html>
